@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+  }
+
+body {
+  xwidth:100vw;
+  xheight: 300vh;
+  margin: 0;
+}
+
+.head__container {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 200;
+    top: 0; 
+    margin: 10px;
+    padding: 10px;
+    background-image: url(./images/background_shape_1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 4rem;
+    border: 2px solid black;
+    xborder: 2px solid var(--bd-item);
+    xbackground-color: var(--bg-item);
+    xborder-radius: 10px;
+  }
+      

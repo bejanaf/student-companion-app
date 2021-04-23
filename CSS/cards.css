@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.buddycard,
+.teamcard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  xflex-direction: column;
+  position: relative;
+}
+
+.buddycard__item,
+.teamcard__item {
+  xpadding: 1rem;
+  border: 3px solid hotpink;
+  xtext-align: center;
+  xmargin: 0;
+}
+
+.buddycard__items,
+.teamcard__items {
+  border: 3px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 315px;
+  height: 58px;
+}
+
+.plus {
+  position: absolute;
+}

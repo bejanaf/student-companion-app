@@ -1,0 +1,65 @@
+.article__motto {
+  margin-bottom: 1rem;
+}
+
+.article__notes {
+  margin-bottom: 0.6rem;
+}
+
+.label__motto {
+  margin-bottom: 0.2rem;
+}
+
+.label__notes {
+  margin-bottom: 0.2rem;
+}
+
+.label__rating {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.comprehension {
+  padding-right: 0.2rem;
+  position: relative;
+}
+
+.comprehension:hover {
+  xbackground: url(./images/Rectangle\ Copy\ 4@2x.png) no-repeat;
+  content: url(./images/Rectangle\ Copy\ 4@2x.png);
+  z-index: 100;
+}
+
+x.rating:hover {
+  background: ;
+}
+
+.journal {
+  border: 2px solid #193251;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.4rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.journal__rating {
+  align-content: flex-start;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.journal__comprehension {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.rating {
+  padding-right: 0.5rem;
+}
+
+/* Navigations Icons Größe festlegen*/
+.navigation__img {
+}

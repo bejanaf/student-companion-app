@@ -1,0 +1,25 @@
+.navigation {
+}
+
+.navigation__list {
+  display: flex;
+  border: 2px solid #193251;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5rem 1rem; /* anpassen an iphone 8*/
+  padding-left: 0;
+  padding-top: 0.5rem;
+}
+
+x.navigation__item--active {
+  opacity: 1;
+  width: 3rem;
+}
+
+x.navigation__img {
+  opacity: 0.6;
+  width: 2rem;
+}
+
+/*transform / transition*/

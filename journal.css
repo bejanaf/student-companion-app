@@ -28,8 +28,12 @@
   padding-right: 0.5rem;
 }
 
+.article__motto {
+  margin-bottom: 1rem;
+}
+
 .article__notes {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
 }
 
 .label__motto {

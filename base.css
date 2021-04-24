@@ -1,13 +1,13 @@
 :root {
   --primary: white;
   --secondary-dark: #193251;
-  --secondary-middle: #7589A2;
-  --secondary-light1: #E0E4E8;
-  --secondary-light2: #F8F8F8;
-  --third-dark: #FF5A36;
-  --third-middle: #FF9C86;
-  --third-light1: #FFBDAF;
-  --third-light2: #FFDED7;
+  --secondary-middle: #7589a2;
+  --secondary-light1: #e0e4e8;
+  --secondary-light2: #f8f8f8;
+  --third-dark: #ff5a36;
+  --third-middle: #ff9c86;
+  --third-light1: #ffbdaf;
+  --third-light2: #ffded7;
 
   --fs-100: 0.75rem; /* 12px */
   --fs-200: 0.875rem; /* 14px */
@@ -16,6 +16,26 @@
   --fs-500: 1.375;
   --fs-600: 1.75rem;
   --fs-900: 2.125;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  xwidth: 100vw;
+  xheight: 300vh;
+  margin: 0;
+  line-height: 1, 5rem;
+  font-family: sans-serif; /* Open sans-serif not available */
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 .bold-16 {
@@ -50,31 +70,16 @@
   line-height: 1.333rem;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-  }
-
-body {
-  xwidth:100vw;
-  xheight: 300vh;
-  margin: 0;
-  line-height: 1,5rem;
-  font-family: sans-serif; /* Open sans-serif not available */
-}
-
 .head__container {
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    z-index: 200;
-    top: 0; 
-    margin: 10px;
-    padding: 10px;
-    background-image: url(./images/background_shape_1.svg);
-    background-repeat: no-repeat;
-    background-size: 100% 4rem;
-    xborder: 2px solid black;
-  }
-      
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  z-index: 200;
+  top: 0;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(./images/background_shape_1.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 4rem;
+  xborder: 2px solid black;
+}

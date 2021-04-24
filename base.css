@@ -31,14 +31,20 @@ body {
   xwidth: 100vw;
   xheight: 300vh;
   margin: 0;
-  line-height: 1,5rem;
+  line-height: 1, 5rem;
   font-family: sans-serif; /* Open sans-serif not available */
+}
+
+main {
+  padding-bottom: 10rem;
 }
 
 footer {
   position: fixed;
   width: 100%;
-  xmargin
+  bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* utilities - Schriftarten*/
@@ -89,7 +95,7 @@ footer {
 
 body {
   margin: 0;
-  line-height: 1,5rem;
+  line-height: 1, 5rem;
   font-family: sans-serif; /* Open sans-serif not available */
 }
 

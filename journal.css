@@ -21,6 +21,7 @@
 
 .comprehension {
   padding-right: 0.2rem;
+  position: relative;
 }
 
 .comprehension:hover {

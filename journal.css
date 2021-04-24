@@ -23,6 +23,16 @@
   padding-right: 0.2rem;
 }
 
+.comprehension:hover {
+  xbackground: url(./images/Rectangle\ Copy\ 4@2x.png) no-repeat;
+  content: url(./images/Rectangle\ Copy\ 4@2x.png);
+  z-index: 100;
+}
+
+x.rating:hover {
+  background: ;
+}
+
 .journal {
   border: 2px solid #193251;
   display: flex;

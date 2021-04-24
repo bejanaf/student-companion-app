@@ -12,10 +12,14 @@
   padding-top: 0.5rem;
 }
 
-.navigation__item--active {
+x.navigation__item--active {
+  opacity: 1;
+  width: 3rem;
 }
 
-.navigation__img {
-  transform: ;
+x.navigation__img {
+  opacity: 0.6;
+  width: 2rem;
 }
+
 /*transform / transition*/

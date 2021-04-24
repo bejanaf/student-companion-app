@@ -1,3 +1,24 @@
+.article__motto {
+  margin-bottom: 1rem;
+}
+
+.article__notes {
+  margin-bottom: 0.6rem;
+}
+
+.label__motto {
+  margin-bottom: 0.2rem;
+}
+
+.label__notes {
+  margin-bottom: 0.2rem;
+}
+
+.label__rating {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
+
 .comprehension {
   padding-right: 0.2rem;
 }
@@ -28,23 +49,6 @@
   padding-right: 0.5rem;
 }
 
-.article__motto {
-  margin-bottom: 1rem;
-}
-
-.article__notes {
-  margin-bottom: 0.6rem;
-}
-
-.label__motto {
-  margin-bottom: 0.2rem;
-}
-
-.label__notes {
-  margin-bottom: 0.2rem;
-}
-
-.label__rating {
-  margin-top: 1rem;
-  margin-bottom: 0.2rem;
+/* Navigations Icons Größe festlegen*/
+.navigation__img {
 }

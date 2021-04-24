@@ -38,36 +38,56 @@ footer {
   bottom: 0;
 }
 
+/* utilities - Schriftarten*/
 .bold-16 {
   font-size: var(--fs-300);
   font-weight: bold;
+  color: var(--secondary-dark);
   line-height: 1.125rem;
-}
-
-.semibold-16 {
-  font-size: var(--fs-300);
-  font-weight: bold;
-  line-height: 1rem;
 }
 
 .semibold-16-1 {
   font-size: var(--fs-300);
-  line-height: 22px1.375rem;
+  font-weight: bold;
+  color: var(--secondary-dark);
+  line-height: 1rem;
 }
 
-.semibold-14 {
-  font-size: var(--fs-200);
-  line-height: 1.286rem;
+.semibold-16-2 {
+  font-size: var(--fs-300);
+  color: var(--secondary-middle);
+  line-height: 22px1.375rem;
 }
 
 .semibold-14-1 {
   font-size: var(--fs-200);
+  color: var(--secondary-dark);
+  line-height: 1.286rem;
+}
+
+.semibold-14-2 {
+  font-size: var(--fs-200);
+  color: var(--secondary-dark);
   line-height: 1.143rem;
 }
 
 .semibold-12 {
   font-size: var(--fs-100);
+  color: var(--secondary-middle);
   line-height: 1.333rem;
+}
+/* utilities - Schriftarten end */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1, 5rem;
+  font-family: sans-serif; /* Open sans-serif not available */
 }
 
 .head__container {
@@ -81,5 +101,4 @@ footer {
   background-image: url(./images/background_shape_1.svg);
   background-repeat: no-repeat;
   background-size: 100% 4rem;
-  xborder: 2px solid black;
 }

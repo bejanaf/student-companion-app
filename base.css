@@ -41,6 +41,8 @@ main {
 
 footer {
   position: fixed;
+  xjustify-content: center; /*funzt nicht*/
+  padding-left: 20px;
   width: 100%;
   bottom: 0;
   margin-bottom: 0;

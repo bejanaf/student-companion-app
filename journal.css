@@ -1,22 +1,35 @@
 .article__motto {
   margin-bottom: 1rem;
+  font-size: 16px;
 }
 
 .article__notes {
   margin-bottom: 0.6rem;
-}
-
-.label__motto {
-  margin-bottom: 0.2rem;
-}
-
-.label__notes {
-  margin-bottom: 0.2rem;
+  font-size: 14px;
 }
 
 .label__rating {
   margin-top: 1rem;
   margin-bottom: 0.2rem;
+  color: #7589a2;
+  font-size: 12px;
+}
+
+.label__comprehension {
+  font-size: 12px;
+  color: #7589a2;
+}
+
+.label__motto {
+  margin-bottom: 0.2rem;
+  color: #7589a2;
+  font-size: 12px;
+}
+
+.label__notes {
+  margin-bottom: 0.2rem;
+  color: #7589a2;
+  font-size: 12px;
 }
 
 .comprehension {
@@ -41,12 +54,14 @@ x.rating:hover {
 
 .journal {
   border: 1px solid #e0e4e8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px darkgray;
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
   padding-left: 0.4rem;
-  margin-left: 0.8rem;
-  margin-right: 0.8rem;
-  border-radius: 10px;
+  width: 315px;
+  height: 347px;
 }
 
 .journal__rating {

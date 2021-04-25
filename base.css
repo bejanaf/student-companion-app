@@ -141,3 +141,8 @@ body {
   display: flex;
   list-style: none;
 }
+
+xh2 {
+  font-family: "open-sans";
+  font-size: 14px;
+}

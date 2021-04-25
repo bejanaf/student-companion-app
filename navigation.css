@@ -1,25 +1,51 @@
 .navigation {
+  z-index: 1000;
+  background-color: #fff;
 }
 
 .navigation__list {
   display: flex;
-  border: 2px solid #193251;
+  border: 1px solid #e0e4e8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px darkgray;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   list-style-type: none;
-  margin: 5rem 1rem; /* anpassen an iphone 8*/
+  xmargin: 10px 20px; /* anpassen an iphone 8*/
+  width: 335px;
+  height: 44px;
   padding-left: 0;
   padding-top: 0.5rem;
 }
 
-x.navigation__item--active {
-  opacity: 1;
-  width: 3rem;
+.navigation__item--inactive {
+  opacity: 0.5;
 }
 
-x.navigation__img {
-  opacity: 0.6;
-  width: 2rem;
+.navigation__dashboard {
+  width: 21px;
+  height: 20.5px;
+}
+
+.navigation__buddy {
+  width: 24px;
+  height: 20px;
+}
+
+.navigation__team {
+  width: 30px;
+  height: 20px;
+}
+
+.navigation__energy {
+  width: 20px;
+  height: 22.01px;
+}
+
+.navigation__journal {
+  width: 20.57px;
+  height: 22px;
 }
 
 /*transform / transition*/

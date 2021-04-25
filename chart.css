@@ -48,7 +48,6 @@
 
 /* columns designed als flex */
 .container-chart {
-<<<<<<< HEAD
     display: flex;
     list-style: none;
     border: 1px solid green;
@@ -125,81 +124,6 @@
   }
   
   
-=======
-  display: flex;
-  list-style: none;
-  xborder: 1px solid green;
-  align-items: baseline;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.container-around-chart-items {
-  display: flex;
-  list-style: none;
-  border: 1px solid green;
-  align-items: baseline;
-}
-
-.chart-item {
-  //Defi. der einzelnen columns
-  list-style: none;
-  border-bottom-left-radius: 8px 8px;
-  border-bottom-right-radius: 8px 8px;
-  width: 12px; /* Breite der einzelnen Chartcolumn */
-  transform: rotate(180deg);
-}
-
-/*vertical lines background*/
-.horizontal-grid {
-  background-size: 100% 30px;
-  background-image: linear-gradient(
-    to bottom,
-    var(--secondary-middle),
-    transparent 3%,
-    transparent 100%
-  );
-}
-
-.other-10 {
-  height: var(--o-level-10);
-}
-.other-1530 {
-  height: var(--o-level-1530);
-}
-.other-1615 {
-  height: var(--o-level-1615);
-}
-.other-1825 {
-  height: var(--o-level-1825);
-}
-.other-19 {
-  height: var(--o-level-19);
-}
-
-.you-10 {
-  height: var(--y-level-10);
-}
-.you-1530 {
-  height: var(--y-level-1530);
-}
-.you-1615 {
-  height: var(--y-level-1615);
-}
-.you-1825 {
-  height: var(--y-level-1825);
-}
-.you-19 {
-  height: var(--y-level-19);
-}
-
-.other {
-  background-color: var(--secondary-dark);
-}
-
-.you {
-  background-color: var(--third-dark);
-}
 
 /* ab hier: other students / you anzeige*/
 
@@ -291,4 +215,3 @@
   background: #ffded7;
   color: #ff5a36;
 }
->>>>>>> 8442dda02bfbc69bfc982deeeb9a0ceb7fbafae9

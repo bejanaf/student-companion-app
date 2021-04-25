@@ -102,25 +102,25 @@ h2 {
   background-repeat: no-repeat;
   background-size: 100% 4rem;
 }
-
+/*
 .container-chart {
   display: grid;
   list-style: none;
 }
 
-/*
+
 .container-chart {
   display: flex;
   list-style: none;
 }
-*/
+
 
 .chart-item {
   list-style: none;
   border-bottom-left-radius: 8px 8px;
   border-bottom-right-radius: 8px 8px;
   background-color: var(--secondary-dark);
-  height: 50vh; /* Gesamtgröße des Charts*/
+  height: 50vh; // Gesamtgröße des Charts
   width: 2vw;
 }
 
@@ -144,6 +144,7 @@ h2 {
   display: flex;
   list-style: none;
 }
+*/
 
 h2 {
   padding-bottom: 5px;

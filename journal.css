@@ -58,29 +58,38 @@ x.rating:hover {
   box-shadow: 1px 1px 10px darkgray;
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
   padding-left: 0.4rem;
   width: 315px;
   height: 347px;
+  padding-left: 20px;
 }
 
 .journal__rating {
   align-content: flex-start;
   display: flex;
+  justify-content: space-between;
   list-style: none;
   padding-left: 0;
+  height: 24px;
+  width: 205px;
 }
 
 .journal__comprehension {
   display: flex;
   list-style: none;
   padding-left: 0;
+  width: 274px;
+  height: 22px;
+  justify-content: space-between;
 }
 
-.rating {
-  xpadding-right: 0.5rem;
+.stars__img {
   width: 24.82px;
   height: 23.63px;
+}
+
+.stars__img:hover {
+  opacity: 1;
 }
 
 /* Navigations Icons Größe festlegen*/

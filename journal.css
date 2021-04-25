@@ -1,3 +1,37 @@
+.main__journal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  padding-bottom: 900px;
+}
+
+.rate-today__container {
+  display: flex;
+  justify-content: center;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Open Sans;
+}
+
+.rate-today__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 48px;
+  border-radius: 5px;
+
+  background: #ff5a36;
+
+  box-shadow: 0 4px 10px rgba(255, 90, 54, 0.4);
+}
+
 .article__motto {
   margin-bottom: 1rem;
   font-size: 16px;

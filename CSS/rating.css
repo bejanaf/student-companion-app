@@ -9,11 +9,20 @@ body {
 }
 
 .rating__main {
+  /*
   width: 375px;
   height: 719px;
   margin-left: 30px;
   margin-right: 30px;
   padding-right: 0;
+  */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 800px;
 }
 
 /* hides radio buttons */

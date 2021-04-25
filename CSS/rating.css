@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  font-family: "open sans";
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h2 {
+  margin-bottom: 0.15rem;
+}
+
+/* hides radio buttons */
+input[name="star"] {
+  display: inline-block;
+  width: 0;
+  opacity: 0;
+  margin-left: -2px;
+}
+
+/* hides radio buttons */
+input[name="rectangle"] {
+  display: inline-block;
+  width: 0;
+  opacity: 0;
+  margin-left: -2px;
+}
+
+/* fill stars on hover*/
+img.star:hover {
+  opacity: 1;
+}
+
+img.rectangle:hover {
+  opacity: 1;
+}
+
+.buttons {
+  width: 152px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+}
+
+/*xbutton > span,
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}*/
+
+.motto {
+  width: 315px;
+  height: 62px;
+}
+
+.notes {
+  width: 315px;
+  height: 124px;
+}
+
+.ratingbody {
+  background: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* make stars transparent */
+.star,
+.rectangle {
+  opacity: 0.1;
+  transition: color 0.2s ease-in-out;
+  xborder: 3px solid #7589a2;
+}
+.star-container,
+.comprehension-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+/*
+label:hover ~ label .star,
+img.star:hover,
+input[name="star"]:focus ~ label .star,
+input[name="star"]:checked ~ label .star {
+  color: #d62a9d;
+}
+
+input[name="star"]:checked + label .star {
+  animation: starred 0.5s;
+}
+
+input[name="star"]:checked + label {
+  animation: scaleup 1s;
+}
+
+@keyframes scaleup {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes starred {
+  from {
+    color: #600040;
+  }
+  to {
+    color: #d62a9d;
+  }
+}
+*/
+/*possibly delete everything below
+img.star:hover {
+  opacity: 1;
+}
+input[name="star"]:checked + label .star {
+  animation: starred 0.5s;
+}
+input[name="star"]:checked + label {
+  opacity: 1;
+  animation: scaleup 1s;
+}
+*/
+/*
+label:hover ~ label .star,
+img.star:hover,
+input[name="star"]:focus ~ label .star,
+input[name="star"]:checked ~ label .star {
+  color: #d62a9d;
+}
+
+input[name="star"]:checked + label .star {
+  animation: starred 0.5s;
+}
+
+input[name="star"]:checked + label {
+  opacity: 1;
+  animation: scaleup 1s;
+}
+*/
+/*ul {
+  list-style: none;
+}
+
+li img:last-child {
+  display: none;
+}
+li:hover img:last-child {
+  display: block;
+}
+li:hover img:first-child {
+  display: none;
+}*/

@@ -1,26 +1,40 @@
 .article__motto {
   margin-bottom: 1rem;
+  font-size: 16px;
 }
 
 .article__notes {
   margin-bottom: 0.6rem;
-}
-
-.label__motto {
-  margin-bottom: 0.2rem;
-}
-
-.label__notes {
-  margin-bottom: 0.2rem;
+  font-size: 14px;
 }
 
 .label__rating {
   margin-top: 1rem;
   margin-bottom: 0.2rem;
+  color: #7589a2;
+  font-size: 12px;
+}
+
+.label__comprehension {
+  font-size: 12px;
+  color: #7589a2;
+}
+
+.label__motto {
+  margin-bottom: 0.2rem;
+  color: #7589a2;
+  font-size: 12px;
+}
+
+.label__notes {
+  margin-bottom: 0.2rem;
+  color: #7589a2;
+  font-size: 12px;
 }
 
 .comprehension {
   padding-right: 0.2rem;
+  position: relative;
 }
 
 .comprehension:hover {
@@ -29,34 +43,53 @@
   z-index: 100;
 }
 
+.comprehension__rectangle {
+  width: 22px;
+  height: 22px;
+}
+
 x.rating:hover {
   background: ;
 }
 
 .journal {
-  border: 2px solid #193251;
+  border: 1px solid #e0e4e8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px darkgray;
   display: flex;
   flex-direction: column;
   padding-left: 0.4rem;
-  margin-left: 0.8rem;
-  margin-right: 0.8rem;
+  width: 315px;
+  height: 347px;
+  padding-left: 20px;
 }
 
 .journal__rating {
   align-content: flex-start;
   display: flex;
+  justify-content: space-between;
   list-style: none;
   padding-left: 0;
+  height: 24px;
+  width: 205px;
 }
 
 .journal__comprehension {
   display: flex;
   list-style: none;
   padding-left: 0;
+  width: 274px;
+  height: 22px;
+  justify-content: space-between;
 }
 
-.rating {
-  padding-right: 0.5rem;
+.stars__img {
+  width: 24.82px;
+  height: 23.63px;
+}
+
+.stars__img:hover {
+  opacity: 1;
 }
 
 /* Navigations Icons Größe festlegen*/

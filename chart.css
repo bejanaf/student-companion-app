@@ -37,28 +37,22 @@
     "sidebar content content content content content"
     "...... footer footer footer footer footer";
     border: 2px solid hotpink;
-    max-width: 315px;
+    width: 315px;
   }
 
 .box {
     margin: 0;
     padding: 0;
-    border: 1px solid lightblue;
+    xborder: 1px solid lightblue;
 }
 
 /* columns designed als flex */  
 .container-chart {
     display: flex;
     list-style: none;
-    border: 1px solid green;
-    justify-content: flexstart;
+    xborder: 1px solid green;
     align-items: baseline;
   }
-
-.unten {
-
-  align-items: bottom;
-}
   
   .chart-item { //Defi. der einzelnen columns 
     list-style: none;
@@ -69,6 +63,14 @@
     transform: rotate(180deg);
   }
     
+  .horizontal-grid {
+    background-size: 100% 30px;
+    background-image: linear-gradient(to bottom,
+                                      var(--secondary-middle),
+                                      transparent 3%,
+                                      transparent 100%);
+  }
+
   .other-10 {
     height: var(--o-level-10);
   }

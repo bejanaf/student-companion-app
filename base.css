@@ -16,9 +16,6 @@
   --fs-500: 1.375;
   --fs-600: 1.75rem;
   --fs-900: 2.125;
-
-  --o-level-10: 25px;
-  --y-level-10: 58px;
 }
 
 *,
@@ -93,17 +90,6 @@ h2 {
 }
 /* utilities - Schriftarten end */
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  line-height: 1, 5rem;
-  font-family: sans-serif; /* Open sans-serif not available */
-}
 
 .head__container {
   display: flex;
@@ -117,47 +103,3 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 4rem;
 }
-
-
-.container-chart {
-  display: grid;
-  list-style: none;
-}
-
-/*
-.container-chart {
-  display: flex;
-  list-style: none;
-}
-*/
-
-.chart-item {
-  list-style: none;
-  border-bottom-left-radius: 8px 8px;
-  border-bottom-right-radius: 8px 8px;
-  background-color: var(--secondary-dark);
-  height: 50vh; /* Gesamtgröße des Charts*/
-  width: 2vw;
-}
-
-.other-10 {
-  height: var(--o-level-10);
-}
-
-.you-10 {
-  height: var(--y-level-10);
-}
-
-.other {
-  background-color: var(--secondary-dark);
-}
-
-.you {
-  background-color: var(--third-dark);
-}
-
-.container-chart {
-  display: flex;
-  list-style: none;
-}
-

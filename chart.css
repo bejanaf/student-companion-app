@@ -1,0 +1,53 @@
+:root {  
+    --o-level-10: 25px;
+    --y-level-10: 58px;
+  }
+  
+  
+/* Grid container for column charts*/  
+  .container-chart {
+    display: grid;
+    list-style: none;
+  }
+  
+  /*
+  .container-chart {
+    display: flex;
+    list-style: none;
+  }
+  */
+  
+  .chart-item {
+    list-style: none;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
+    background-color: var(--secondary-dark);
+    height: 50vh; /* Gesamtgröße des Charts*/
+    width: 2vw;
+  }
+
+
+
+/* columns designed als flex */  
+  .container-chart {
+    display: flex;
+    list-style: none;
+  }
+    
+  .other-10 {
+    height: var(--o-level-10);
+  }
+  
+  .you-10 {
+    height: var(--y-level-10);
+  }
+  
+  .other {
+    background-color: var(--secondary-dark);
+  }
+  
+  .you {
+    background-color: var(--third-dark);
+  }
+  
+  

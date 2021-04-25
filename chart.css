@@ -50,10 +50,11 @@
 .container-chart {
     display: flex;
     list-style: none;
-    xborder: 1px solid green;
+    border: 1px solid green;
     align-items: baseline;
     margin-bottom:0;
     padding-bottom: 0;
+    height: 100%;
   }
 
   .container-around-chart-items {
@@ -61,6 +62,7 @@
     list-style: none;
     border: 1px solid green;
     align-items: baseline;
+    height: 100px;
   }
 
 

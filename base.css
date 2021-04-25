@@ -17,7 +17,7 @@
   --fs-600: 1.75rem;
   --fs-900: 2.125;
 
-  --o-level-10: 75px;
+  --o-level-10: 25px;
   --y-level-10: 58px;
 }
 
@@ -106,10 +106,25 @@ body {
   background-size: 100% 4rem;
 }
 
+
+.container-chart {
+  display: grid;
+  list-style: none;
+}
+
+/*
+.container-chart {
+  display: flex;
+  list-style: none;
+}
+*/
+
 .chart-item {
   list-style: none;
+  border-bottom-left-radius: 8px 8px;
+  border-bottom-right-radius: 8px 8px;
   background-color: var(--secondary-dark);
-  height: 50vh;
+  height: 50vh; /* Gesamtgröße des Charts*/
   width: 2vw;
 }
 
@@ -127,9 +142,4 @@ body {
 
 .you {
   background-color: var(--third-dark);
-}
-
-.container-chart {
-  display: flex;
-  list-style: none;
 }

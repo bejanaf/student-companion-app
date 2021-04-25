@@ -92,6 +92,22 @@ x.rating:hover {
   opacity: 1;
 }
 
+.rating:hover {
+  content: url(./images/Star\ Copy\ 6.svg);
+  z-index: 100;
+}
+
 /* Navigations Icons Größe festlegen*/
 .navigation__img {
+}
+
+.journal {
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: var(--fs-200);
+  color: var(--secondary-dark);
+  line-height: 1.286rem;
+  margin-bottom: 10px;
 }

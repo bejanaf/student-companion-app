@@ -52,8 +52,8 @@
     list-style: none;
     border: 1px solid green;
     align-items: baseline;
-    margin-bottom:0;
-    padding-bottom: 0;
+    margin-left: 22px;
+    padding: 0;
     height: 100%;
   }
 
@@ -62,7 +62,7 @@
     list-style: none;
     border: 1px solid green;
     align-items: baseline;
-    height: 100px;
+    height: 200px;
   }
 
 

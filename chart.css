@@ -46,7 +46,7 @@
   xcolumn-rule-width: 5px;
   xcolumn-rule-style: dotted;
   xcolumn-rule-color: rebeccapurple;
-  border: 1px solid hotpink;
+  border: 2px solid hotpink;
   max-width: 315px;
   }
 
@@ -58,22 +58,22 @@
     max-width: 255px;
 }
 
-
 /* columns designed als flex */  
 .container-chart {
     display: flex;
     list-style: none;
-    xtransform: rotate(90deg);
     border: 1px solid green;
+    justify-content: flexstart;
+    align-items: baseline;
   }
   
   .chart-item { //Defi. der einzelnen columns 
     list-style: none;
     border-bottom-left-radius: 8px 8px;
     border-bottom-right-radius: 8px 8px;
-    background-color: var(--secondary-dark);
-    height: 100vh; /* Gesamtgröße des Charts*/
+    xheight: 150vh; /* Gesamtgröße des Charts*/
     width: 12px; /* Breite der einzelnen Chartcolumn */
+    transform: rotate(180deg);
   }
     
   .other-10 {

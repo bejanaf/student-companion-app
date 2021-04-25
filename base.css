@@ -16,9 +16,6 @@
   --fs-500: 1.375;
   --fs-600: 1.75rem;
   --fs-900: 2.125;
-
-  --o-level-10: 25px;
-  --y-level-10: 58px;
 }
 
 *,
@@ -91,18 +88,6 @@ h2 {
   line-height: 1.333rem;
 }
 /* utilities - Schriftarten end */
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  line-height: 1, 5rem;
-  font-family: sans-serif; /* Open sans-serif not available */
-}
 
 .head__container {
   display: flex;

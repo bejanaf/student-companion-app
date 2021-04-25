@@ -17,6 +17,7 @@
 
   .chart-content {
     grid-area: content;
+    width: 255px;
   }
 
   .chart-header {
@@ -25,7 +26,6 @@
 
   .chart-footer {
     grid-area: footer;
-    padding-bottom: 5px;
     text-align: center;
   }
 
@@ -52,18 +52,28 @@
     list-style: none;
     xborder: 1px solid green;
     align-items: baseline;
+    margin-bottom:0;
+    padding-bottom: 0;
   }
-  
+
+  .container-around-chart-items {
+    display: flex;
+    list-style: none;
+    border: 1px solid green;
+    align-items: baseline;
+  }
+
+
   .chart-item { //Defi. der einzelnen columns 
     list-style: none;
     border-bottom-left-radius: 8px 8px;
     border-bottom-right-radius: 8px 8px;
-    xheight: 150vh; /* Gesamtgröße des Charts*/
     width: 12px; /* Breite der einzelnen Chartcolumn */
     transform: rotate(180deg);
   }
     
-  .horizontal-grid {
+  /*vertical lines background*/
+  .horizontal-grid { 
     background-size: 100% 30px;
     background-image: linear-gradient(to bottom,
                                       var(--secondary-middle),

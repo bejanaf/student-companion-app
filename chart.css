@@ -1,47 +1,113 @@
 :root {  
-    --o-level-10: 25px;
-    --y-level-10: 58px;
+    --o-level-10: 10px;
+    --y-level-10: 15px;
+    --o-level-1530: 20px;
+    --y-level-1530: 25px;
+    --o-level-1615: 30px;
+    --y-level-1615: 35px;
+    --o-level-1825: 40px;
+    --y-level-1825: 45px;
+    --o-level-19: 50px;
+    --y-level-19: 55px;
   }
   
   
-/* Grid container for column charts*/  
+/* Grid container for column charts
   .container-chart {
     display: grid;
     list-style: none;
   }
-  
-  /*
-  .container-chart {
+*/  
+
+.chart-sidebar {
+    grid-area: sidebar;
+  }
+
+  .chart-content {
+    grid-area: content;
+  }
+
+  .chart-header {
+    grid-area: header;
+  }
+
+  .chart-footer {
+    grid-area: footer;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 55px 1fr 1fr  1fr 1fr 1fr;
+    grid-template-areas:
+    "....... header header header header header"
+    "sidebar content content content content content"
+    "...... footer footer footer footer footer";
+    xcolumn-count: 6;
+  xcolumn-rule-width: 5px;
+  xcolumn-rule-style: dotted;
+  xcolumn-rule-color: rebeccapurple;
+  border: 1px solid hotpink;
+  max-width: 315px;
+  }
+
+
+.box {
+    margin: 0;
+    padding: 0;
+    border: 1px solid blue;
+    max-width: 255px;
+}
+
+
+/* columns designed als flex */  
+.container-chart {
     display: flex;
     list-style: none;
+    xtransform: rotate(90deg);
+    border: 1px solid green;
   }
-  */
   
-  .chart-item {
+  .chart-item { //Defi. der einzelnen columns 
     list-style: none;
     border-bottom-left-radius: 8px 8px;
     border-bottom-right-radius: 8px 8px;
     background-color: var(--secondary-dark);
-    height: 50vh; /* Gesamtgröße des Charts*/
-    width: 2vw;
-  }
-
-
-
-/* columns designed als flex */  
-  .container-chart {
-    display: flex;
-    list-style: none;
+    height: 100vh; /* Gesamtgröße des Charts*/
+    width: 12px; /* Breite der einzelnen Chartcolumn */
   }
     
   .other-10 {
     height: var(--o-level-10);
   }
-  
+  .other-1530 {
+    height: var(--o-level-1530);
+  }
+  .other-1615 {
+    height: var(--o-level-1615);
+  }
+  .other-1825 {
+    height: var(--o-level-1825);
+  }
+  .other-19 {
+    height: var(--o-level-19);
+  }
+    
   .you-10 {
     height: var(--y-level-10);
   }
-  
+  .you-1530 {
+    height: var(--y-level-1530);
+  }
+  .you-1615 {
+    height: var(--y-level-1615);
+  }
+  .you-1825 {
+    height: var(--y-level-1825);
+  }
+  .you-19 {
+    height: var(--y-level-19);
+  }
+
   .other {
     background-color: var(--secondary-dark);
   }

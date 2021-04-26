@@ -54,7 +54,6 @@
     align-items: baseline;
     margin-left: 22px;
     padding: 0;
-    height: 100%;
   }
 
   .container-around-chart-items {
@@ -66,7 +65,7 @@
   }
 
 
-  .chart-item { //Defi. der einzelnen columns 
+  .chart-item { /*Defi. der einzelnen columns */
     list-style: none;
     border-bottom-left-radius: 8px 8px;
     border-bottom-right-radius: 8px 8px;

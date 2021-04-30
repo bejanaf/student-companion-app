@@ -85,12 +85,11 @@
 }
 */
 
-.comprehension__rectangle {
+.hellerKasten {
   background-image: url('./images/Rectangle Copy 13@2x.png');
   width: 22px;
   height: 22px;
 }
-
 
 .journal {
   border: 1px solid #e0e4e8;
@@ -105,11 +104,11 @@
 }
 
 .journal__rating {
-  align-content: flex-start;
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   list-style: none;
-  padding-left: 0;
+  padding: 0;
+  margin: 10px 0 20px 0;
   height: 24px;
   width: 205px;
 }
@@ -128,16 +127,23 @@
   height: 23.63px;
 }
 
-
 .stars__img:hover {
   opacity: 1;
 }
 
-
 .dunklerStern {
   background-image: url('./images/Star\ Copy\ 6.svg');
-  xz-index: 100;
+  width: 24.82px;
+  height: 23.63px;
+}
 
+.hellerStern {
+  background-image: url('./images/Star Copy 7@2x.png');
+  width: 24.82px;
+  height: 23.63px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* 
 .rating:hover {
@@ -146,10 +152,9 @@
  } 
  */
 
-
- /* Navigations Icons Größe festlegen */
+/* Navigations Icons Größe festlegen */
 .navigation__img {
-} 
+}
 
 .journal {
   margin-top: 15px;

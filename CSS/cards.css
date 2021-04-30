@@ -7,8 +7,10 @@ h2 {
 }
 
 .buddycard,
+.buddy__buddycard,
 .teamcard {
-  font-family: "open-sans";
+  font-family: 'open-sans';
+  border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -16,9 +18,11 @@ h2 {
   height: 100%;
   xflex-direction: column;
   position: relative;
+  margin-bottom: 4rem;
 }
 
 .buddycard__item,
+.buddy__buddycard__item,
 .teamcard__item {
   xpadding: 1rem;
   xborder: 3px solid hotpink;
@@ -27,6 +31,7 @@ h2 {
 }
 
 .buddycard__items,
+.buddy__buddycard__items,
 .teamcard__items {
   border: 1px solid #e0e4e8;
   border-radius: 3%;
@@ -41,6 +46,7 @@ h2 {
   color: #7589a2;
 }
 
-.plus {
+.plus,
+.buddy__plus {
   position: absolute;
 }

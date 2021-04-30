@@ -29,7 +29,7 @@ body {
   xheight: 300vh;
   margin: 0;
   line-height: 1, 5rem;
-  -family: "open-sans"; /* Open sans-serif not available */
+  -family: 'open-sans'; /* Open sans-serif not available */
 }
 
 main {
@@ -42,7 +42,6 @@ footer {
   position: fixed;
   display: flex;
   justify-content: center; /*funzt nicht*/
-  xpadding-left: 20px;
   width: 100%;
   bottom: 0;
   margin-bottom: 0;
@@ -92,7 +91,9 @@ h2 {
 
 .head__container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   position: sticky;
   z-index: 200;
   top: 0;
@@ -103,51 +104,6 @@ h2 {
   background-size: 100% 4rem;
 }
 
-/* ist doppelt siehe chart.css*/
-/*
-.container-chart {
-  display: grid;
-  list-style: none;
-}
-
-
-.container-chart {
-  display: flex;
-  list-style: none;
-}
-
-
-.chart-item {
-  list-style: none;
-  border-bottom-left-radius: 8px 8px;
-  border-bottom-right-radius: 8px 8px;
-  background-color: var(--secondary-dark);
-  height: 50vh; /* Gesamtgröße des Charts*//*
-  width: 2vw;
-}
-
-.other-10 {
-  height: var(--o-level-10);
-}
-
-.you-10 {
-  height: var(--y-level-10);
-}
-
-.other {
-  background-color: var(--secondary-dark);
-}
-
-.you {
-  background-color: var(--third-dark);
-}
-
-.container-chart {
-  display: flex;
-  list-style: none;
-}
-*/
-
 h2 {
   padding-bottom: 5px;
   padding-top: 10px;
@@ -157,16 +113,7 @@ a {
   text-decoration: none;
 }
 
-/* felix: ich habe folgendes hinzugefügt für die main auf index.html für zentriertes design
-.main__index {
-  border: red solid 2px;
+p {
+  padding: 0;
   margin: 0;
-  display: grid;
-  xflex-wrap: wrap;
-  xjustify-content: center;
-  xalign-items: center;
-  xheight: 100%;
-
-  xpadding-bottom: 900px;
 }
-*/

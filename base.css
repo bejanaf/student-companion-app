@@ -1,29 +1,172 @@
+:root {
+  --primary: white;
+  --secondary-dark: #193251;
+  --secondary-middle: #7589a2;
+  --secondary-light1: #e0e4e8;
+  --secondary-light2: #f8f8f8;
+  --third-dark: #ff5a36;
+  --third-middle: #ff9c86;
+  --third-light1: #ffbdaf;
+  --third-light2: #ffded7;
+
+  --fs-100: 0.75rem; /* 12px */
+  --fs-200: 0.875rem; /* 14px */
+  --fs-300: 1rem; /* 16px */
+  --fs-400: 1.25rem;
+  --fs-500: 1.375;
+  --fs-600: 1.75rem;
+  --fs-900: 2.125;
+}
+
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-  }
-
-body {
-  xwidth:100vw;
-  xheight: 300vh;
-  margin: 0;
+  box-sizing: border-box;
 }
 
+body {
+  xwidth: 100vw;
+  xheight: 300vh;
+  margin: 0;
+  line-height: 1, 5rem;
+  -family: "open-sans"; /* Open sans-serif not available */
+}
+
+main {
+  padding-bottom: 10rem;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  justify-content: center; /*funzt nicht*/
+  xpadding-left: 20px;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* utilities - Schriftarten*/
+.bold-16 {
+  font-size: var(--fs-300);
+  font-weight: bold;
+  color: var(--secondary-dark);
+  line-height: 1.125rem;
+}
+
+.semibold-16-1,
+h2 {
+  font-size: var(--fs-300);
+  font-weight: bold;
+  color: var(--secondary-dark);
+  line-height: 1rem;
+}
+
+.semibold-16-2 {
+  font-size: var(--fs-300);
+  color: var(--secondary-middle);
+  line-height: 1rem;
+}
+
+.semibold-14-1 {
+  font-size: var(--fs-200);
+  color: var(--secondary-dark);
+  line-height: 1.286rem;
+}
+
+.semibold-14-2 {
+  font-size: var(--fs-200);
+  color: var(--secondary-dark);
+  line-height: 1.143rem;
+}
+
+.semibold-12 {
+  font-size: var(--fs-100);
+  color: var(--secondary-middle);
+  line-height: 1.333rem;
+}
+/* utilities - Schriftarten end */
+
 .head__container {
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    z-index: 200;
-    top: 0; 
-    margin: 10px;
-    padding: 10px;
-    background-image: url(./images/background_shape_1.svg);
-    background-repeat: no-repeat;
-    background-size: 100% 4rem;
-    border: 2px solid black;
-    xborder: 2px solid var(--bd-item);
-    xbackground-color: var(--bg-item);
-    xborder-radius: 10px;
-  }
-      
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  z-index: 200;
+  top: 0;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(./images/background_shape_1.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 4rem;
+}
+
+/* ist doppelt siehe chart.css*/
+/*
+.container-chart {
+  display: grid;
+  list-style: none;
+}
+
+
+.container-chart {
+  display: flex;
+  list-style: none;
+}
+
+
+.chart-item {
+  list-style: none;
+  border-bottom-left-radius: 8px 8px;
+  border-bottom-right-radius: 8px 8px;
+  background-color: var(--secondary-dark);
+  height: 50vh; /* Gesamtgröße des Charts*//*
+  width: 2vw;
+}
+
+.other-10 {
+  height: var(--o-level-10);
+}
+
+.you-10 {
+  height: var(--y-level-10);
+}
+
+.other {
+  background-color: var(--secondary-dark);
+}
+
+.you {
+  background-color: var(--third-dark);
+}
+
+.container-chart {
+  display: flex;
+  list-style: none;
+}
+*/
+
+h2 {
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* felix: ich habe folgendes hinzugefügt für die main auf index.html für zentriertes design
+.main__index {
+  border: red solid 2px;
+  margin: 0;
+  display: grid;
+  xflex-wrap: wrap;
+  xjustify-content: center;
+  xalign-items: center;
+  xheight: 100%;
+
+  xpadding-bottom: 900px;
+}
+*/

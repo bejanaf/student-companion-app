@@ -8,8 +8,21 @@ body {
   height: 100%;
 }
 
-h2 {
-  margin-bottom: 0.15rem;
+.rating__main {
+  /*
+  width: 375px;
+  height: 719px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-right: 0;
+  */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 800px;
 }
 
 /* hides radio buttons */
@@ -37,14 +50,32 @@ img.rectangle:hover {
   opacity: 1;
 }
 
-.buttons {
-  width: 152px;
-  height: 48px;
+.rating__buttons {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  left: 0;
+  margin-top: 48px;
+  width: 315px;
+  xmargin-left: 30px;
+  xmargin-right: 30px;
+}
+
+.rating__button--cancel {
+  width: 152px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 0;
+}
+
+.rating__button--save {
+  width: 152px;
+  height: 48px;
+  background-color: var(--third-dark);
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
 }
 
 /*xbutton > span,
@@ -54,23 +85,16 @@ p {
   justify-content: center;
 }*/
 
-.motto {
+.input__motto {
   width: 315px;
   height: 62px;
 }
 
-.notes {
+.input__notes {
   width: 315px;
   height: 124px;
 }
 
-.ratingbody {
-  background: #ffffff;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 /* make stars transparent */
 .star,
 .rectangle {
@@ -78,86 +102,49 @@ p {
   transition: color 0.2s ease-in-out;
   xborder: 3px solid #7589a2;
 }
-.star-container,
-.comprehension-container {
+
+.comprehension__container {
+  width: 315px;
+  height: 26px;
+  margin-bottom: 15px;
+}
+
+.rating__comprehension {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-}
-
-/*
-label:hover ~ label .star,
-img.star:hover,
-input[name="star"]:focus ~ label .star,
-input[name="star"]:checked ~ label .star {
-  color: #d62a9d;
-}
-
-input[name="star"]:checked + label .star {
-  animation: starred 0.5s;
-}
-
-input[name="star"]:checked + label {
-  animation: scaleup 1s;
-}
-
-@keyframes scaleup {
-  from {
-    transform: scale(1.2);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-@keyframes starred {
-  from {
-    color: #600040;
-  }
-  to {
-    color: #d62a9d;
-  }
-}
-*/
-/*possibly delete everything below
-img.star:hover {
-  opacity: 1;
-}
-input[name="star"]:checked + label .star {
-  animation: starred 0.5s;
-}
-input[name="star"]:checked + label {
-  opacity: 1;
-  animation: scaleup 1s;
-}
-*/
-/*
-label:hover ~ label .star,
-img.star:hover,
-input[name="star"]:focus ~ label .star,
-input[name="star"]:checked ~ label .star {
-  color: #d62a9d;
-}
-
-input[name="star"]:checked + label .star {
-  animation: starred 0.5s;
-}
-
-input[name="star"]:checked + label {
-  opacity: 1;
-  animation: scaleup 1s;
-}
-*/
-/*ul {
   list-style: none;
+  padding-left: 0;
+  justify-content: space-between;
 }
 
-li img:last-child {
-  display: none;
+.rating__stars {
+  height: 34.46px;
+  width: 315px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
 }
-li:hover img:last-child {
-  display: block;
+
+h2 {
+  font-size: var(--fs-300);
+  font-weight: bold;
+  color: var(--secondary-dark);
+  line-height: 1rem;
+  margin-right: 0;
 }
-li:hover img:first-child {
-  display: none;
-}*/
+
+.rating__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label__motto__rating,
+.label__notes__rating,
+.label__comprehension__rating,
+.label__rating__rating {
+  font-size: var(--fs-300);
+  color: var(--secondary-dark);
+  line-height: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}

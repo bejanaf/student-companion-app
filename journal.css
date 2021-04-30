@@ -1,0 +1,147 @@
+.main__journal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  padding-bottom: 900px;
+}
+
+.rate-today__container {
+  display: flex;
+  justify-content: center;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Open Sans;
+}
+
+.rate-today__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 48px;
+  border-radius: 5px;
+
+  background: #ff5a36;
+
+  box-shadow: 0 4px 10px rgba(255, 90, 54, 0.4);
+}
+
+.article__motto {
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.article__notes {
+  margin-bottom: 0.6rem;
+  font-size: 14px;
+}
+
+.label__rating {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  color: #7589a2;
+  font-size: 12px;
+}
+
+.label__comprehension {
+  font-size: 12px;
+  color: #7589a2;
+}
+
+.label__motto {
+  margin-bottom: 0.2rem;
+  color: #7589a2;
+  font-size: 12px;
+}
+
+.label__notes {
+  margin-bottom: 0.2rem;
+  color: #7589a2;
+  font-size: 12px;
+}
+
+.comprehension {
+  padding-right: 0.2rem;
+  position: relative;
+}
+
+.comprehension:hover {
+  xbackground: url(./images/Rectangle\ Copy\ 4@2x.png) no-repeat;
+  content: url(./images/Rectangle\ Copy\ 4@2x.png);
+  z-index: 100;
+}
+
+.comprehension__rectangle {
+  width: 22px;
+  height: 22px;
+}
+
+x.rating:hover {
+  background: ;
+}
+
+.journal {
+  border: 1px solid #e0e4e8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px darkgray;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.4rem;
+  width: 315px;
+  height: 347px;
+  padding-left: 20px;
+}
+
+.journal__rating {
+  align-content: flex-start;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+  height: 24px;
+  width: 205px;
+}
+
+.journal__comprehension {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  width: 274px;
+  height: 22px;
+  justify-content: space-between;
+}
+
+.stars__img {
+  width: 24.82px;
+  height: 23.63px;
+}
+
+.stars__img:hover {
+  opacity: 1;
+}
+
+.rating:hover {
+  content: url(./images/Star\ Copy\ 6.svg);
+  z-index: 100;
+}
+
+/* Navigations Icons Größe festlegen*/
+.navigation__img {
+}
+
+.journal {
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: var(--fs-200);
+  color: var(--secondary-dark);
+  line-height: 1.286rem;
+  margin-bottom: 10px;
+}

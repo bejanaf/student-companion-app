@@ -8,53 +8,129 @@
     <title>Student App</title>
   </head>
   <body>
-    <header></header>
+    <header class="head__container">
+      <h1>ENERGY</h1>
+    </header>
 
-    <main></main>
+    <main>
+      <div class="wrapper">
+        <!--     <div class="wrapper">-->
+        <div class="semibold-14 box chart-header">
+          <h2>Energy Level through the day</h2>
+        </div>
+        <div class="box chart-sidebar semibold-12">
+          <p>100</p>
+          <p>75</p>
+          <p>50</p>
+          <p>25</p>
+          <p>0</p>
+        </div>
+        <div class="box chart-content horizontal-grid">
+          <div class="container-around-chart-items">
+            <ul class="container-chart">
+              <li class="chart-item you you-10"></li>
+              <li class="chart-item other other-10"></li>              
+            </ul>
+
+            <ul class="container-chart">
+              <li class="chart-item you you-1530"></li>
+              <li class="chart-item other other-1530"></li>
+            </ul>
+
+            <ul class="container-chart">
+              <li class="chart-item you you-1615"></li>
+              <li class="chart-item other other-1615"></li>
+            </ul>
+
+            <ul class="container-chart">
+              <li class="chart-item you you-1825"></li>
+              <li class="chart-item other other-1825"></li>
+            </ul>
+
+            <ul class="container-chart">
+              <li class="chart-item you you-19"></li>
+              <li class="chart-item other other-19"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="box chart-footer semibold-12">
+          10:00 15:30 16:15 18:25 19:00
+        </div>
+        <!--    </div>-->
+      </div>
+
+      <!-- other students / you -->
+      <ul class="energy-level__container">
+        <li class="energy-level__item energy-level__other">
+          <article>Other Students</article>
+        </li>
+        <li class="energy-level__item energy-level__you">
+          <article>You</article>
+        </li>
+      </ul>
+
+      <h2>Rate your current energy level:</h2>
+
+      <!-- energy boxes-->
+      <ul class="energy-boxes">
+        <li class="energy-box energy-box100">
+          <article>100%</article>
+        </li>
+        <li class="energy-box energy-box75">
+          <article>75%</article>
+        </li>
+        <li class="energy-box energy-box50">
+          <article>50%</article>
+        </li>
+        <li class="energy-box energy-box25">
+          <article>25%</article>
+        </li>
+      </ul>
+    </main>
 
     <footer>
       <nav class="navigation">
         <ul class="navigation__list">
-          <li class="navigation__item navigation__item--active">
+          <li class="navigation__item">
             <a href="index.html">
               <img
-                class="navigation__img"
+                class="navigation__dashboard navigation__item--inactive"
                 src="./images/DashboardIcon@2x.png"
                 alt="Icon Dashboard"
               />
             </a>
           </li>
-          <li class="navigation__item">
+          <li class="navigation__item navigation__item--inactive">
             <a href="buddy.html">
               <img
-                class="navigation__img"
+                class="navigation__buddy"
                 src="./images/BuddyIcon@2x.png"
                 alt="Buddy Icon"
               />
             </a>
           </li>
-          <li class="navigation__item">
-            <a href="./images/TeamIcon@2x.png">
+          <li class="navigation__item navigation__item--inactive">
+            <a href="./team.html">
               <img
-                class="navigation__img"
+                class="navigation__team"
                 src="./images/TeamIcon@2x.png"
                 alt="Team Icon"
               />
             </a>
           </li>
-          <li class="navigation__item navigation__item--active">
+          <li class="navigation__item">
             <a href="energy.html">
               <img
-                class="navigation__img"
+                class="navigation__energy"
                 src="./images/EnergyIcon@2x.png"
                 alt="Energy Icon"
               />
             </a>
           </li>
-          <li class="navigation__item">
+          <li class="navigation__item navigation__item--inactive">
             <a href="journal.html">
               <img
-                class="navigation__img"
+                class="navigation__journal"
                 src="./images/JournalIcon@2x.png"
                 alt="Journal Icon"
               />

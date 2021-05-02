@@ -71,20 +71,26 @@
   position: relative;
 }
 
+.dunklerKasten {
+  background-image: url('./images/Rectangle\ Copy\ 4@2x.png');
+  width: 22px;
+  height: 22px;
+}
+
+/*
 .comprehension:hover {
   xbackground: url(./images/Rectangle\ Copy\ 4@2x.png) no-repeat;
   content: url(./images/Rectangle\ Copy\ 4@2x.png);
   z-index: 100;
 }
+*/
 
 .comprehension__rectangle {
+  background-image: url('./images/Rectangle Copy 13@2x.png');
   width: 22px;
   height: 22px;
 }
 
-x.rating:hover {
-  background: ;
-}
 
 .journal {
   border: 1px solid #e0e4e8;
@@ -122,18 +128,28 @@ x.rating:hover {
   height: 23.63px;
 }
 
+
 .stars__img:hover {
   opacity: 1;
 }
 
-.rating:hover {
-  content: url(./images/Star\ Copy\ 6.svg);
-  z-index: 100;
-}
 
-/* Navigations Icons Größe festlegen*/
+.dunklerStern {
+  background-image: url('./images/Star\ Copy\ 6.svg');
+  xz-index: 100;
+
+
+/* 
+.rating:hover {
+   content: url(./images/Star\ Copy\ 6.svg); 
+   z-index: 100; 
+ } 
+ */
+
+
+ /* Navigations Icons Größe festlegen */
 .navigation__img {
-}
+} 
 
 .journal {
   margin-top: 15px;

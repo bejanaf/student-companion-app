@@ -127,9 +127,11 @@
   height: 23.63px;
 }
 
+/*
 .stars__img:hover {
   opacity: 1;
 }
+*/
 
 .dunklerStern {
   background-image: url('./images/Star\ Copy\ 6.svg');
@@ -142,7 +144,7 @@
   width: 24.82px;
   height: 23.63px;
   background-size: cover;
-  background-repeat: no-repeat;
+  xbackground-repeat: no-repeat;
 }
 
 /* 
@@ -153,8 +155,11 @@
  */
 
 /* Navigations Icons Größe festlegen */
+/*
 .navigation__img {
 }
+*/
+
 
 .journal {
   margin-top: 15px;

@@ -127,21 +127,28 @@
             </li>
           </ul>
         </section>
+        <form>
+          <label class="label__motto__rating" for="label__motto__rating"
+            >Motto:</label
+          >
+          <input type="text" name="label__motto__rating" class="input__motto" />
 
-        <label class="label__motto__rating" for="label__motto__rating"
-          >Motto:</label
-        >
-        <input type="text" name="label__motto__rating" class="input__motto" />
-
-        <label class="label__notes__rating" for="label__notes__rating"
-          >Notes:</label
-        >
-        <input type="text" name="label__notes__rating" class="input__notes" />
-
-        <section class="rating__buttons">
-          <button class="rating__button--cancel" type="button">Cancel</button>
-          <button class="rating__button--save" type="button">Save ✓</button>
-        </section>
+          <label class="label__notes__rating" for="label__notes__rating"
+            >Notes:</label
+          >
+          <input type="text" name="label__notes__rating" class="input__notes" />
+          <label for="rating"
+            >rating <input type="number" name="rating" id="rating"
+          /></label>
+          <label for="comprehension"
+            >comprehension
+            <input type="number" name="comprehension" id="comprehension"
+          /></label>
+          <section class="rating__buttons">
+            <button class="rating__button--cancel" type="button">Cancel</button>
+            <button class="rating__button--save" type="submit">Save ✓</button>
+          </section>
+        </form>
       </section>
     </main>
     <footer>
@@ -196,5 +203,6 @@
       </nav>
     </footer>
     <script src="./lib/ratingHover.js"></script>
+    <script src="./lib/storage.js"></script>
   </body>
 </html>

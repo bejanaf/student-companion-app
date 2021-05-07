@@ -1,57 +1,11 @@
-// const codeBuddysAll = [
-//   codeBuddysOne = [
-//     {
-//       codeBuddy: 'Felix',
-//     },
-//     {
-//       codeBuddy: 'Farah',
-//     },
-//   ]),
-//   (codeBuddysTwo = [
-//     {
-//       codeBuddy: 'Gabriele',
-//     },
-//     {
-//       codeBuddy: 'Bejan',
-//     },
-//   ]),
-//   (codeBuddysThree = [
-//     {
-//       codeBuddy: 'Felix',
-//     },
-//     {
-//       codeBuddy: 'Gabriele',
-//     },
-//   ]),
-//   (codeBuddysFour = [
-//     {
-//       codeBuddy: 'Farah',
-//     },
-//     {
-//       codeBuddy: 'Bejan',
-//     },
-//   ]),
-//   (codeBuddysFive = [
-//     {
-//       codeBuddy: 'Gabriele',
-//     },
-//     {
-//       codeBuddy: 'Felix',
-//     },
-//   ]),
-// ];
-
-const codeBuddysAll = [
-  ['Felix', 'Farah'],
-  ['Gabriele', 'Bejan'],
-  ['Felix', 'Gabriele'],
-  ['Farah', 'Bejan'],
-  ['Gabriele', 'Felix'],
-];
+fetch("https://muc-2020-w1-student-api.vercel.app/api/buddies")
+  .then((result) => result.json())
+  .then((data) => drawBuddies(data));
 
 const mainBuddy = document.querySelector('.main__buddy');
 
-codeBuddysAll.forEach((allMyBuddys) => {
+function drawBuddies(buddies) {
+  buddies.forEach((allMyBuddys) => {
   const sections = document.createElement('section');
   sections.classList.add('buddycard');
   mainBuddy.append(sections);
@@ -79,4 +33,16 @@ codeBuddysAll.forEach((allMyBuddys) => {
   buddycard__item1.classList.add('buddycard__item');
   buddycard__item1.textContent = allMyBuddys[1];
   buddycard__items1.append(buddycard__item1);
-});
+  });
+};
+
+
+ /* altes array
+const codeBuddysAll = [
+  ['Felix', 'Farah'],
+  ['Gabriele', 'Bejan'],
+  ['Felix', 'Gabriele'],
+  ['Farah', 'Bejan'],
+  ['Gabriele', 'Felix'],
+];
+*/
